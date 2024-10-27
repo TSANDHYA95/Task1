@@ -1,0 +1,70 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f2e7;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Sweet items */
+.sweet-item {
+    display: inline-block;
+    width: 180px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff3e0;
+}
+
+.sweet-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.order-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.order-link:hover {
+    background-color: #e65c50;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
